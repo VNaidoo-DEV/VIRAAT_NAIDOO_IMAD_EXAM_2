@@ -1,8 +1,7 @@
 # 🏕️ Camping Gear Tracker App
 # 🌐 GitHub Repository
 
-[Click here to view repository](https://github.com/VNaidoo-DEV/CampingGearTracker.git)
-
+[Click here to view the repository](https://github.com/VNaidoo-DEV/VIRAAT_NAIDOO_IMAD_EXAM_2.git)
 
 ## 💻 Overview
 The Camping Gear Tracker App is an Android application developed using Kotlin and Android Studio. 
