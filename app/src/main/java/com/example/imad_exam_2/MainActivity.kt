@@ -35,14 +35,14 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Handler", "onCreate")
                 imgLogo.visibility = View.VISIBLE
                 txtTitle.visibility = View.VISIBLE
-                val intent = Intent(this, CampingGearActivity::class.java)
+                val intent = Intent(this, CampingGearActivity::class.java) //Linking Activity
                 startActivity(intent)
             }, 3000)
 
 
         }
         btnExit.setOnClickListener {
-            finishAffinity()
+            finishAffinity()//Closes the app
         }
 
     }

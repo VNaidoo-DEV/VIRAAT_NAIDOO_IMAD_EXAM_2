@@ -47,11 +47,7 @@ class CampingGearActivity : AppCompatActivity() {
             val itemQuantityText = txtQuantity.text.toString().trim()
             val commentText = txtComment.text.toString().trim()
 
-            if (itemNameText.isEmpty() ||
-                itemCategoryText.isEmpty() ||
-                itemQuantityText.isEmpty() ||
-                commentText.isEmpty()
-            ) {
+            if (itemNameText.isEmpty() || itemCategoryText.isEmpty() || itemQuantityText.isEmpty() || commentText.isEmpty()) {
                 Toast.makeText(this, "Please enter all fields", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
