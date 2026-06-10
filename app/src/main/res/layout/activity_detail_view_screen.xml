@@ -21,7 +21,8 @@
             android:layout_height="312dp"
             android:background="@color/white"
             android:text="RESULT WILL BE DISPLAYED HERE :"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/btnReview"
