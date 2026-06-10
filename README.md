@@ -1,11 +1,13 @@
 # 🏕️ Camping Gear Tracker App
 # 🌐 GitHub Repository
+# [Click here to view the repository](https://github.com/VNaidoo-DEV/VIRAAT_NAIDOO_IMAD_EXAM_2.git)
 
-[Click here to view the repository](https://github.com/VNaidoo-DEV/VIRAAT_NAIDOO_IMAD_EXAM_2.git)
-
+---
 ## 💻 Overview
 The Camping Gear Tracker App is an Android application developed using Kotlin and Android Studio. 
 The application allows users to manage a camping packing list by storing item names, categories, quantities, and comments while providing useful packing statistics and detailed item information.
+
+---
 
 ## 🎯 Purpose
 
@@ -18,6 +20,9 @@ This project demonstrates:
 - Functions and loops.
 - User interaction handling.
 - Android UI design principles.
+
+---
+
 ## ✨ Features
 
 ### 🚀 Splash Screen
@@ -43,17 +48,20 @@ Allows users to:
 
 ![Packing List Screen](Screenshots/PackingListScreen.png)
 
-📋 Detail Screen
+
+### 📋 Detail Screen
 
 Displays:
 
-All recorded camping items
-Item categories
-Quantities
-Comments
+- All recorded camping items
+- Item categories
+- Quantities
+- Comments
 
 
 ![Detail Screen](Screenshots/DetailScreen.png)
+
+---
 
 ## 🛡️ Error Handling
 
@@ -75,9 +83,10 @@ Validation includes:
 - Data validation before processing.
   
 ## 🎥 Animations
-- Smooth transitions between screens
-- Activity navigation animations
-- Improved user experience
+- Smooth transitions between screens.
+- Activity navigation animations.
+- Improved user experience.
+  
 ## 🛠️ Technologies Used
 - 💜 Kotlin
 - 💻 Android Studio
@@ -115,7 +124,7 @@ Validation includes:
 ## ⚠️ Challenges & Solutions
 ### Challenge:
 
-Managing multiple ArrayLists across screens.
+- Managing multiple ArrayLists across screens.
 
 ### Solution:
 
@@ -140,7 +149,7 @@ Managing multiple ArrayLists across screens.
 
 
 ## 🚀 Installation
-1. Clone the repository.
+1. [Clone the repository](https://github.com/VNaidoo-DEV/VIRAAT_NAIDOO_IMAD_EXAM_2.git)
 2. Open the project in Android Studio.
 3. Sync Gradle files.
 4. Run the application on an emulator or Android device.
