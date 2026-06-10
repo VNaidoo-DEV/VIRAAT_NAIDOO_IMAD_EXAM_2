@@ -31,21 +31,17 @@ steps:
   - name: Grant Execute Permission for Gradle
     run: chmod +x gradlew
 
-  - name: Validate Gradle Wrapper
-    uses: gradle/actions/wrapper-validation@v3
-
-  - name: Build Project
+   - name: Build Debug APK
     run: ./gradlew assembleDebug
 
   - name: Run Unit Tests
     run: ./gradlew test
 
-  - name: Upload Build Reports
-    if: always()
+  - name: Upload APK Artifact
     uses: actions/upload-artifact@v4
     with:
-      name: Build-Reports
-      path: |
+      name: IMAD_EXAM_2
+      path: app/build/outputs/apk/debug/*.apk
         app/build/reports
         app/build/test-results
 ```
