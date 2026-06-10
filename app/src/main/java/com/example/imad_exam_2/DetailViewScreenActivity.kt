@@ -41,7 +41,7 @@ class DetailViewScreenActivity : AppCompatActivity() {
 
             for (i in 0 until size) {
                 display.append(
-                    "Item Name: ${itemNames[i]}\n" +
+                            "Item Name: ${itemNames[i]}\n" +
                             "Category: ${itemCategories[i]}\n" +
                             "Quantity: ${itemQuantities[i]}\n" +
                             "Comment: ${itemComments[i]}\n\n"

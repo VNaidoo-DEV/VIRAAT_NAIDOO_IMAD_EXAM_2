@@ -85,4 +85,5 @@
             android:text="RESULTS WILL BE DISPLAYED HERE :"
             android:textColor="@color/black" />
     </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>

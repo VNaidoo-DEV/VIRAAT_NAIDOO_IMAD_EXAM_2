@@ -67,7 +67,7 @@ class CampingGearActivity : AppCompatActivity() {
             itemQuantities.add(quantity)
             itemComments.add(commentText)
 
-            // ✅ NOW calculate total correctly
+            //  NOW calculate total correctly
             var totalItems = 0
             for (q in itemQuantities) {
                 totalItems += q
